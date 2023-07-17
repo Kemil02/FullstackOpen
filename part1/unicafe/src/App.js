@@ -7,6 +7,8 @@ const Button = ({ handleClick, text }) => (
     </button>
 )
 
+
+
 const StatisticLine = ({ text, value }) => {
     return(
         <p>{text} {value}</p>
